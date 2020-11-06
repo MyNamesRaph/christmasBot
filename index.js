@@ -16,6 +16,7 @@ const broadcast = client.voice.createBroadcast();
 //broadcast.play(getURL().toString());
 broadcast.play("https://n2ab-e2.revma.ihrhls.com/zc4596?rj-ttl=5&rj-tok=AAABdZ8CxlAAETTrIq-z5XQIpw");
 client.once('ready', () => {
+    client.user.setPresence({ activity: { name: '!christmas', type:"STREAMING" , url:"https://www.youtube.com/watch?v=PzrGGyPMfoo&t=5s"}, status: 'online' })
     console.log('Ready!');
 });
 
