@@ -1,0 +1,22 @@
+{
+  "name": "ChristmasBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.4.1",
+    "ffmpeg-static": "^4.2.7",
+    "iheart": "^3.1.1",
+    "js-yaml": "^3.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.44"
+  }
+}
